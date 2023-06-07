@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react-public",
+  "version": "1.0.0",
+  "description": "This is Namaste react by Vinod appu PG",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinodappuvmw/namaste-react-public.git"
+  },
+  "keywords": [],
+  "author": "vinod appu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinodappuvmw/namaste-react-public/issues"
+  },
+  "homepage": "https://github.com/vinodappuvmw/namaste-react-public#readme",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+  ,
+"browserslist": [
+  "last 10 versions"
+]
+}

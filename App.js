@@ -9,11 +9,13 @@
  * </div>
  * 
  */
+import React from "react";
+import ReactDOM  from "react-dom/client";
 
 const parent = React.createElement("div", { id: "parent" }, [React.createElement("div",
     { id: "sub-parent-1" },
     [React.createElement("h1", {}, "H1 header 1"),
-    React.createElement("h1", {}, "H1 header 2")]), React.createElement("div",
+    React.createElement("h1", {}, "Namaste react 🚀 ")]), React.createElement("div",
         { id: "sub-parent2" },
         [React.createElement("h2", {}, "H1 header 1"),
         React.createElement("h2", {}, "H1 header 2")])]);
@@ -25,6 +27,9 @@ const heading = React.createElement(
     "Hello wold react!!"
 );
 console.log(parent);
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
 
